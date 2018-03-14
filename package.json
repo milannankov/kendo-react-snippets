@@ -1,0 +1,21 @@
+{
+    "name": "kendo-react-snippets",
+    "displayName": "Kendo React Snippets",
+    "description": "Visual Studio Code Snippets for Kendo UI for React",
+    "version": "0.0.1",
+    "publisher": "milannankov",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "milannankov",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
