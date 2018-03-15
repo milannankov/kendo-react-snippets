@@ -1,0 +1,179 @@
+{
+    "components-imports": {
+        "prefix": "krc-imports",
+        "body": [
+            "import { Grid, GridColumn as Column, GridCell } from '@progress/kendo-react-grid';",
+            "import { Button, ButtonGroup } from '@progress/kendo-react-buttons';",
+            "import { DateInput, Calendar } from '@progress/kendo-react-dateinputs';",
+            "import { DropDownList, ComboBox } from '@progress/kendo-react-dropdowns';",
+            "import { PanelBar, PanelBarItem, TabStrip, TabStripTab } from '@progress/kendo-react-layout';",
+            "import { process } from '@progress/kendo-data-query';"
+        ],
+        "description": "Kendo React Import Statements"
+    },
+    "components-button": {
+        "prefix": "krc-button",
+        "body": [
+            "<Button",
+            "    primary={${1|true,false|}}",
+            "    look=\"${2|bare,flat,outline|}\"",
+            "    icon=\"folder\"",
+            "    disabled={${3|true,false|}}>",
+            "    ${4:MyButton}",
+            "</Button>"
+        ],
+        "description": "Kendo React Button"
+    },
+    "components-buttongroup": {
+        "prefix": "krc-buttongroup",
+        "body": [
+            "<ButtonGroup>",
+            "    <Button togglable={true}>Bold</Button>",
+            "    <Button togglable={true}>Italic</Button>",
+            "    <Button togglable={true}>Underline</Button>",
+            "</ButtonGroup>"
+        ],
+        "description": "Kendo React Button Group"
+    },
+    "components-calendar": {
+        "prefix": "krc-calendar",
+        "body": [
+            "<Calendar",
+            "    value={${1:new Date(2010, 10, 10)}}",
+            "    onChange={${2:this.onChange}}",
+            "/>"
+        ],
+        "description": "Kendo React Calendar"
+    },
+    "components-combobox": {
+        "prefix": "krc-combobox",
+        "body": [
+            "<ComboBox",
+            "    data={${1:this.comboData}}",
+            "    textField={${2:'text'}}",
+            "    valueField={${3:'value'}}",
+            "    value={${3:this.props.value}}",
+            "    onChange={${4:this.onChange}}",
+            "/>"
+        ],
+        "description": "Kendo React ComboBox"
+    },
+    "components-dateinput": {
+        "prefix": "krc-dateinput",
+        "body": [
+            "<DateInput",
+            "    format=\"MM/dd/yyyy hh:mm a\"",
+            "    value={new Date(2010, 10, 10)}",
+            "    onChange={this.onChange}",
+            "/>"
+        ],
+        "description": "Kendo React DateInput"
+    },
+    "components-dropdownlist": {
+        "prefix": "krc-drowpownlist",
+        "body": [
+            "<DropDownList",
+            "    data={this.comboData}",
+            "    textField={'text'}",
+            "    valueField={'value'}",
+            "    value={this.props.value}",
+            "    onChange={this.onChange}",
+            "/>"
+        ],
+        "description": "Kendo React DropDownList"
+    },
+    "components-grid": {
+        "prefix": "krc-drid",
+        "body": [
+            "<Grid",
+            "    style={{ maxHeight: '400px' }}",
+            "    data={this.props.data}>",
+            "    <Column field=\"field1\" title=\"Column1\" width=\"100px\" />",
+            "</Grid>"
+        ],
+        "description": "Kendo React Grid"
+    },
+    "components-panelbar": {
+        "prefix": "krc-panelbar",
+        "body": [
+            "<PanelBar>",
+            "    <PanelBarItem expanded={true} title=\"My Teammates\">",
+            "        <div>",
+            "            <div>Andrew Fuller</div>",
+            "            <div>Nancy Leverling</div>",
+            "            <div>Robert King</div>",
+            "        </div>",
+            "    </PanelBarItem>",
+            "    <PanelBarItem title={'Projects'} >",
+            "        <PanelBarItem title={'New Business Plan'} />",
+            "        <PanelBarItem title={'Sales Forecasts'} />",
+            "        <PanelBarItem title={'Sales Reports'} />",
+            "    </PanelBarItem>",
+            "    <PanelBarItem title=\"Communication\" disabled={true} />",
+            "</PanelBar>"
+        ],
+        "description": "Kendo React PanelBar"
+    },
+    "components-tabstrip": {
+        "prefix": "krc-tabstrip",
+        "body": [
+            "<TabStrip selected={0} onSelect={this.onSelect}>",
+            "    <TabStripTab title=\"Tab1\">",
+            "        <div>Tab1 Content</div>",
+            "    </TabStripTab>",
+            "    <TabStripTab title=\"Tab2\">",
+            "    </TabStripTab>",
+            "    <TabStripTab title=\"Sydney\" disabled={true}></TabStripTab>",
+            "</TabStrip>"
+        ],
+        "description": "Kendo React TabStrip"
+    },
+    "wrappers-imnports": {
+        "prefix": "krw-imports",
+        "body": [
+            "import { Button, ButtonGroup, ToolBar } from '@progress/kendo-buttons-react-wrapper';",
+            "import { Chart } from '@progress/kendo-charts-react-wrapper';"
+        ],
+        "description": "Kendo React Wrappers Import Statements"
+    },
+    "wrappers-button": {
+        "prefix": "krw-button",
+        "body": [
+            "<Button",
+            "    icon='folder'",
+            "    click={this.onClick}>",
+            "    Button",
+            "</Button>"
+        ],
+        "description": "Kendo React Button Wrapper"
+    },
+    "wrappers-buttongroup": {
+        "prefix": "krw-buttongroup",
+        "body": [
+            "<Button",
+            "    icon='folder'",
+            "    click={this.onClick}>",
+            "    Button",
+            "</Button>"
+        ],
+        "description": "Kendo React Button Group Wrapper"
+    },
+    "wrappers-chart": {
+        "prefix": "krw-chart",
+        "body": [
+            "<Chart",
+            "    dataSource={chartData}",
+            "    series={[",
+            "        {",
+            "            field: \"hours\"",
+            "        },",
+            "    ]}",
+            "    categoryAxis={[{",
+            "        field: \"projectName\"",
+            "    }]}",
+            "    seriesDefaults={({ type: \"bar\" })}",
+            "/>"
+        ],
+        "description": "Kendo React Char Wrapper"
+    }
+}
