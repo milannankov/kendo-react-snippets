@@ -21,13 +21,30 @@ Alternatively you can open the extensions panel and search for 'kendo react snip
 * JavaScript (.jsx)
 * JavaScript (.tsx)
 
+## Supported Components
+
+Components: Button, ButtonGroup, Calendar, ComboBox, DateInput, DropDownList, Grid, PanelBar, TabStrip  
+Wrappers: Button, ButtonGroup, Chart
+
 ## Snippets
 
 Below is a list of all available snippets and the triggers of each one. The "->" means the `TAB` key.
 
 | Trigger  | Content |
 | -------: | ------- |
-| `->` | `` |
+| `krc-imports->` | `Kendo React Import Statements` |
+| `krc-button->` | `Kendo React Button` |
+| `krc-buttongroup->` | `Kendo React Button Group` |
+| `krc-calendar->` | `Kendo React Calendar` |
+| `krc-combobox->` | `Kendo React ComboBox` |
+| `krc-dateinput->` | `Kendo React DateInput` |
+| `krc-drowpownlist->` | `Kendo React DropDownList` |
+| `krc-drid->` | `Kendo React Grid` |
+| `krc-panelbar->` | `Kendo React PanelBar` |
+| `krc-tabstrip->` | `Kendo React TabStrip` |
+| `krw-button->` | `Kendo React Button Wrapper` |
+| `krw-buttongroup->` | `Kendo React Button Group Wrapper` |
+| `krw-chart->` | `Kendo React Char Wrapper` |
 
 
 ## License

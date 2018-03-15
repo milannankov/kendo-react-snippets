@@ -2,7 +2,7 @@
     "name": "kendo-react-snippets",
     "displayName": "Kendo React Snippets",
     "description": "Visual Studio Code Snippets for Kendo UI for React",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "milannankov",
     "engines": {
         "vscode": "^1.21.0"
@@ -10,6 +10,22 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "kendo",
+        "react",
+        "snippets",
+        "JSX"
+    ],
+    "license": "SEE LICENSE IN LICENSE",
+    "bugs": {
+        "url": "https://github.com/milannankov/kendo-react-snippets/issues",
+        "email": "public@nankov.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/milannankov/kendo-react-snippets.git"
+    },
+    "homepage": "https://github.com/milannankov/kendo-react-snippets/blob/master/README.md",
     "contributes": {
         "snippets": [
             {
@@ -26,12 +42,16 @@
             }
         ]
     },
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#fff",
+        "theme": "dark"
+    },
     "devDependencies": {
         "gulp": "^3.9.1",
         "gulp-sequence": "^1.0.0",
-        "through2": "^2.0.3"
-    },
-    "dependencies": {
+        "through2": "^2.0.3",
         "plugin-error": "^1.0.1"
-    }
+    },
+    "dependencies": {}
 }
