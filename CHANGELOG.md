@@ -5,6 +5,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.3.1] - 2018-03-16
+
+### Changed
+- Updated Button snippet with click handler.
+
 ## [0.1.0] - 2018-03-15
 
 ### Added

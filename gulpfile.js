@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var gulpSequence = require('gulp-sequence');
 var snippets = require('./gulp-vs-snippets');
 var gulpOptions = {
-    snippetSource: ["./snippets-source/**/*.js", "./snippets-source/**/*.jsx"],
+    snippetSource: ["./snippets-source/**/*.js", "./snippets-source/**/*.jsx", "./snippets-source/**/*.snippet"],
     dest: "./snippets-source/"
 }
 
