@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var gulpSequence = require('gulp-sequence');
-var snippets = require('./gulp-vs-snippets');
+var snippetFormatter = require('gulp-vscode-snippet-formatter');
 var gulpOptions = {
     snippetSource: ["./snippets-source/**/*.js", "./snippets-source/**/*.jsx", "./snippets-source/**/*.snippet"],
     dest: "./snippets-source/"
@@ -12,7 +12,7 @@ gulp.task('default', function () {
 
 gulp.task('generate-snippets', function () {
     return gulp.src(gulpOptions.snippetSource)
-        .pipe(snippets())
+        .pipe(snippetFormatter())
         .pipe(gulp.dest('compiled'));
     // place code for your default task here
 });
