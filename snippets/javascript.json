@@ -164,6 +164,94 @@
         ],
         "description": "Kendo React TabStrip"
     },
+    "components-autocomplete": {
+        "prefix": "krc-autocomplete",
+        "body": [
+            "<AutoComplete",
+            "    data={this.data}",
+            "    textField={'text'}",
+            "    value={this.props.value}",
+            "    onChange={this.onChange}",
+            "    placeholder=\"Custom placeholder\"",
+            "/>"
+        ],
+        "description": "Kendo React AutoComplete"
+    },
+    "components-chart": {
+        "prefix": "krc-chart",
+        "body": [
+            "<Chart>",
+            "    <ChartSeries>",
+            "        <ChartSeriesItem type=\"column\" data={this.props.firstSeries} />",
+            "        <ChartSeriesItem type=\"column\" data={this.props.secondSeries} />",
+            "    </ChartSeries>",
+            "</Chart>"
+        ],
+        "description": "Kendo React Chart"
+    },
+    "components-datepicker": {
+        "prefix": "krc-datepicker",
+        "body": [
+            "<Chart>",
+            "    <ChartSeries>",
+            "        <ChartSeriesItem type=\"column\" data={this.props.firstSeries} />",
+            "        <ChartSeriesItem type=\"column\" data={this.props.secondSeries} />",
+            "    </ChartSeries>",
+            "</Chart>"
+        ],
+        "description": "Kendo React DatePicker"
+    },
+    "components-stockchart": {
+        "prefix": "krc-stockchart",
+        "body": [
+            "<StockChart>",
+            "        <ChartTitle text=\"Title\" />",
+            "        <ChartSeries>",
+            "            <ChartSeriesItem",
+            "                data={this.props.stockData}",
+            "                type=\"candlestick\"",
+            "                openField=\"Open\"",
+            "                closeField=\"Close\"",
+            "                lowField=\"Low\"",
+            "                highField=\"High\"",
+            "                categoryField=\"Date\"",
+            "            />",
+            "        </ChartSeries>",
+            "        <ChartNavigator>",
+            "            <ChartNavigatorSelect from={this.props.from} to={this.props.to} />",
+            "            <ChartNavigatorSeries>",
+            "                <ChartNavigatorSeriesItem",
+            "                    data={this.props.stockData}",
+            "                    type=\"area\"",
+            "                    field=\"Close\"",
+            "                    categoryField=\"Date\"",
+            "                />",
+            "            </ChartNavigatorSeries>",
+            "        </ChartNavigator>",
+            "    </StockChart>"
+        ],
+        "description": "Kendo React StockChart"
+    },
+    "components-switch": {
+        "prefix": "krc-switch",
+        "body": [
+            "<Switch ",
+            "    checked={this.props.checked}",
+            "    onChange={this.handleChange}",
+            "/>"
+        ],
+        "description": "Kendo React Switch"
+    },
+    "components-timepicker": {
+        "prefix": "krc-timepicker",
+        "body": [
+            "<TimePicker",
+            "    value={this.props.value}",
+            "    onChange={this.handleChange}",
+            "/>"
+        ],
+        "description": "Kendo React TimePicker"
+    },
     "wrappers-imnports": {
         "prefix": "krw-imports",
         "body": [
