@@ -7,9 +7,45 @@
             "import { DateInput, Calendar } from '@progress/kendo-react-dateinputs';",
             "import { DropDownList, ComboBox } from '@progress/kendo-react-dropdowns';",
             "import { PanelBar, PanelBarItem, TabStrip, TabStripTab } from '@progress/kendo-react-layout';",
-            "import { process } from '@progress/kendo-data-query';"
+            "import { NumericTextBox, Input, Switch } from '@progress/kendo-react-inputs';",
+            "import { Dialog } from '@progress/kendo-react-dialogs';",
+            "import { Popup } from '@progress/kendo-react-popup';",
+            "import { Chart, Sparkline, StockChart } from '@progress/kendo-react-charts';"
         ],
-        "description": "Kendo React Import Statements"
+        "description": "Kendo React import statements."
+    },
+    "components-imports-common": {
+        "prefix": "krc-imports-common",
+        "body": [
+            "import { process, orderBy, filterBy, groupBy, aggregateBy } from '@progress/kendo-data-query';",
+            "import { getDate, addDays } from '@progress/kendo-date-math';",
+            "import { saveAs, encodeBase64  } from '@progress/kendo-file-saver';"
+        ],
+        "description": "Kendo React import statements for common functionality."
+    },
+    "components-imports-drawing": {
+        "prefix": "krc-imports-drawing",
+        "body": [
+            "import { drawDOM, exportPDF, DrawOptions, Image, Surface, Path, Text, Group } from '@progress/kendo-drawing';",
+            "import { Rect, Point, Size, transform } from '@progress/kendo-drawing/geometry';"
+        ],
+        "description": "Kendo React import statements for drawing functionality."
+    },
+    "components-imports-effects": {
+        "prefix": "krc-imports-effects",
+        "body": [
+            "import { Expand, Push, Reveal, Slide, Zoom } from '@progress/kendo-react-animation';",
+            "import { Ripple } from '@progress/kendo-react-ripple';"
+        ],
+        "description": "Kendo React import statements for Ripple and Animations."
+    },
+    "components-imports-export": {
+        "prefix": "krc-imports-export",
+        "body": [
+            "import { ExcelExport } from '@progress/kendo-react-excel-export';",
+            "import { PDFExport, savePDF } from '@progress/kendo-react-pdf';"
+        ],
+        "description": "Kendo React import statements for export functionality."
     },
     "components-button": {
         "prefix": "krc-button",
