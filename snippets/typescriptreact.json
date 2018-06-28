@@ -119,7 +119,7 @@
         "description": "Kendo React DropDownList"
     },
     "components-grid": {
-        "prefix": "krc-drid",
+        "prefix": "krc-grid",
         "body": [
             "<Grid",
             "    style={{ maxHeight: '400px' }}",

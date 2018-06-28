@@ -5,7 +5,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 - Updated import snippets for R2 release. Introduced new krc-import-common, krc-import-drawing, krc-import-effects, and krc-import-export statements. 
-- Added snippets for new components additions in R2 - Switch, TimePicker, DatePicker, AutoComplete, ComboBox
+- Added snippets for new components additions in R2 - Switch, TimePicker, DatePicker, AutoComplete, ComboBox, Chart
 
 ## [0.3.1] - 2018-03-16
 
