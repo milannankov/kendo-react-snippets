@@ -4,6 +4,8 @@ All notable changes to the "kendo-react-snippets" extension will be documented i
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+
+## [0.4.0] - 2018-06-28
 - Updated import snippets for R2 release. Introduced new krc-import-common, krc-import-drawing, krc-import-effects, and krc-import-export statements. 
 - Added snippets for new components additions in R2 - Switch, TimePicker, DatePicker, AutoComplete, ComboBox, Chart
 

@@ -26,9 +26,9 @@ Alternatively you can open the extensions panel and search for 'kendo react snip
 Components: Button, ButtonGroup, Calendar, ComboBox, DateInput, DropDownList, Grid, PanelBar, TabStrip  
 Wrappers: Button, ButtonGroup, Chart
 
-## Snippets
+## Snippets - Components
 
-Below is a list of all available snippets and the triggers of each one. The "->" means the `TAB` key.
+Below is a list of all available component snippets and the triggers of each one. The "->" means the `TAB` key.
 
 | Trigger  | Content |
 | -------: | ------- |
@@ -39,13 +39,25 @@ Below is a list of all available snippets and the triggers of each one. The "->"
 | `krc-combobox->` | `Kendo React ComboBox` |
 | `krc-dateinput->` | `Kendo React DateInput` |
 | `krc-drowpownlist->` | `Kendo React DropDownList` |
-| `krc-drid->` | `Kendo React Grid` |
+| `krc-grid->` | `Kendo React Grid` |
 | `krc-panelbar->` | `Kendo React PanelBar` |
 | `krc-tabstrip->` | `Kendo React TabStrip` |
+| `krc-datepicker->` | `Kendo React DatePicker` |
+| `krc-autocomplete->` | `Kendo React AutoComplete` |
+| `krc-switch->` | `Kendo React Switch` |
+| `krc-timepicker->` | `Kendo React TimePicker` |
+| `krc-chart->` | `Kendo React Chart` |
+| `krc-stockchart->` | `Kendo React StockChart` |
+
+## Snippets - Wrappers
+
+Below is a list of all available wrapper snippets and the triggers of each one. The "->" means the `TAB` key.
+
+| Trigger  | Content |
+| -------: | ------- |
 | `krw-button->` | `Kendo React Button Wrapper` |
 | `krw-buttongroup->` | `Kendo React Button Group Wrapper` |
 | `krw-chart->` | `Kendo React Char Wrapper` |
-
 
 ## License
 
