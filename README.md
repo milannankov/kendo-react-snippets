@@ -19,12 +19,7 @@ Alternatively you can open the extensions panel and search for 'kendo react snip
 
 * JavaScript (.js)
 * JavaScript (.jsx)
-* JavaScript (.tsx)
-
-## Supported Components
-
-Components: Button, ButtonGroup, Calendar, ComboBox, DateInput, DropDownList, Grid, PanelBar, TabStrip  
-Wrappers: Button, ButtonGroup, Chart
+* TypeScript (.tsx)
 
 ## Snippets - Components
 
